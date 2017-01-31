@@ -8,7 +8,7 @@
 
 import UIKit
 
-class KaduckView: UIView {
+public class KaduckView: UIView {
 
     /*
     // Only override draw() if you perform custom drawing.
@@ -35,7 +35,7 @@ class KaduckView: UIView {
         // The Main Stuff
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         
         // You don't need to implement this
