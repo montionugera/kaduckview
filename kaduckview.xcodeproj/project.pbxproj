@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD5A9E3D1E40CCB6007303D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5A9E3C1E40CCB6007303D7 /* AppDelegate.swift */; };
+		CD5A9E3F1E40CCB6007303D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5A9E3E1E40CCB6007303D7 /* ViewController.swift */; };
+		CD5A9E421E40CCB6007303D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD5A9E401E40CCB6007303D7 /* Main.storyboard */; };
+		CD5A9E441E40CCB6007303D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD5A9E431E40CCB6007303D7 /* Assets.xcassets */; };
+		CD5A9E471E40CCB6007303D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD5A9E451E40CCB6007303D7 /* LaunchScreen.storyboard */; };
+		CD5A9E521E40CCB6007303D7 /* kaduckviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5A9E511E40CCB6007303D7 /* kaduckviewTests.swift */; };
+		CD5A9E5D1E40CCB7007303D7 /* kaduckviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5A9E5C1E40CCB7007303D7 /* kaduckviewUITests.swift */; };
+		CD5A9E6D1E40CD30007303D7 /* KaduckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5A9E6C1E40CD30007303D7 /* KaduckView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD5A9E4E1E40CCB6007303D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD5A9E311E40CCB6007303D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD5A9E381E40CCB6007303D7;
+			remoteInfo = kaduckview;
+		};
+		CD5A9E591E40CCB6007303D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD5A9E311E40CCB6007303D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD5A9E381E40CCB6007303D7;
+			remoteInfo = kaduckview;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD5A9E391E40CCB6007303D7 /* kaduckview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kaduckview.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD5A9E3C1E40CCB6007303D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD5A9E3E1E40CCB6007303D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD5A9E411E40CCB6007303D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD5A9E431E40CCB6007303D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD5A9E461E40CCB6007303D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD5A9E481E40CCB6007303D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD5A9E4D1E40CCB6007303D7 /* kaduckviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kaduckviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD5A9E511E40CCB6007303D7 /* kaduckviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kaduckviewTests.swift; sourceTree = "<group>"; };
+		CD5A9E531E40CCB6007303D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD5A9E581E40CCB6007303D7 /* kaduckviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kaduckviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD5A9E5C1E40CCB7007303D7 /* kaduckviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kaduckviewUITests.swift; sourceTree = "<group>"; };
+		CD5A9E5E1E40CCB7007303D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD5A9E6C1E40CD30007303D7 /* KaduckView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KaduckView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD5A9E361E40CCB6007303D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD5A9E4A1E40CCB6007303D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD5A9E551E40CCB6007303D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD5A9E301E40CCB6007303D7 = {
+			isa = PBXGroup;
+			children = (
+				CD5A9E3B1E40CCB6007303D7 /* kaduckview */,
+				CD5A9E501E40CCB6007303D7 /* kaduckviewTests */,
+				CD5A9E5B1E40CCB6007303D7 /* kaduckviewUITests */,
+				CD5A9E3A1E40CCB6007303D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD5A9E3A1E40CCB6007303D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD5A9E391E40CCB6007303D7 /* kaduckview.app */,
+				CD5A9E4D1E40CCB6007303D7 /* kaduckviewTests.xctest */,
+				CD5A9E581E40CCB6007303D7 /* kaduckviewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD5A9E3B1E40CCB6007303D7 /* kaduckview */ = {
+			isa = PBXGroup;
+			children = (
+				CD5A9E6C1E40CD30007303D7 /* KaduckView.swift */,
+				CD5A9E3C1E40CCB6007303D7 /* AppDelegate.swift */,
+				CD5A9E3E1E40CCB6007303D7 /* ViewController.swift */,
+				CD5A9E401E40CCB6007303D7 /* Main.storyboard */,
+				CD5A9E431E40CCB6007303D7 /* Assets.xcassets */,
+				CD5A9E451E40CCB6007303D7 /* LaunchScreen.storyboard */,
+				CD5A9E481E40CCB6007303D7 /* Info.plist */,
+			);
+			path = kaduckview;
+			sourceTree = "<group>";
+		};
+		CD5A9E501E40CCB6007303D7 /* kaduckviewTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD5A9E511E40CCB6007303D7 /* kaduckviewTests.swift */,
+				CD5A9E531E40CCB6007303D7 /* Info.plist */,
+			);
+			path = kaduckviewTests;
+			sourceTree = "<group>";
+		};
+		CD5A9E5B1E40CCB6007303D7 /* kaduckviewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD5A9E5C1E40CCB7007303D7 /* kaduckviewUITests.swift */,
+				CD5A9E5E1E40CCB7007303D7 /* Info.plist */,
+			);
+			path = kaduckviewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD5A9E381E40CCB6007303D7 /* kaduckview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD5A9E611E40CCB7007303D7 /* Build configuration list for PBXNativeTarget "kaduckview" */;
+			buildPhases = (
+				CD5A9E351E40CCB6007303D7 /* Sources */,
+				CD5A9E361E40CCB6007303D7 /* Frameworks */,
+				CD5A9E371E40CCB6007303D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kaduckview;
+			productName = kaduckview;
+			productReference = CD5A9E391E40CCB6007303D7 /* kaduckview.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD5A9E4C1E40CCB6007303D7 /* kaduckviewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD5A9E641E40CCB7007303D7 /* Build configuration list for PBXNativeTarget "kaduckviewTests" */;
+			buildPhases = (
+				CD5A9E491E40CCB6007303D7 /* Sources */,
+				CD5A9E4A1E40CCB6007303D7 /* Frameworks */,
+				CD5A9E4B1E40CCB6007303D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD5A9E4F1E40CCB6007303D7 /* PBXTargetDependency */,
+			);
+			name = kaduckviewTests;
+			productName = kaduckviewTests;
+			productReference = CD5A9E4D1E40CCB6007303D7 /* kaduckviewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD5A9E571E40CCB6007303D7 /* kaduckviewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD5A9E671E40CCB7007303D7 /* Build configuration list for PBXNativeTarget "kaduckviewUITests" */;
+			buildPhases = (
+				CD5A9E541E40CCB6007303D7 /* Sources */,
+				CD5A9E551E40CCB6007303D7 /* Frameworks */,
+				CD5A9E561E40CCB6007303D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD5A9E5A1E40CCB6007303D7 /* PBXTargetDependency */,
+			);
+			name = kaduckviewUITests;
+			productName = kaduckviewUITests;
+			productReference = CD5A9E581E40CCB6007303D7 /* kaduckviewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD5A9E311E40CCB6007303D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = augimon;
+				TargetAttributes = {
+					CD5A9E381E40CCB6007303D7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					CD5A9E4C1E40CCB6007303D7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CD5A9E381E40CCB6007303D7;
+					};
+					CD5A9E571E40CCB6007303D7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CD5A9E381E40CCB6007303D7;
+					};
+				};
+			};
+			buildConfigurationList = CD5A9E341E40CCB6007303D7 /* Build configuration list for PBXProject "kaduckview" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD5A9E301E40CCB6007303D7;
+			productRefGroup = CD5A9E3A1E40CCB6007303D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD5A9E381E40CCB6007303D7 /* kaduckview */,
+				CD5A9E4C1E40CCB6007303D7 /* kaduckviewTests */,
+				CD5A9E571E40CCB6007303D7 /* kaduckviewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD5A9E371E40CCB6007303D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD5A9E471E40CCB6007303D7 /* LaunchScreen.storyboard in Resources */,
+				CD5A9E441E40CCB6007303D7 /* Assets.xcassets in Resources */,
+				CD5A9E421E40CCB6007303D7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD5A9E4B1E40CCB6007303D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD5A9E561E40CCB6007303D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD5A9E351E40CCB6007303D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD5A9E3F1E40CCB6007303D7 /* ViewController.swift in Sources */,
+				CD5A9E6D1E40CD30007303D7 /* KaduckView.swift in Sources */,
+				CD5A9E3D1E40CCB6007303D7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD5A9E491E40CCB6007303D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD5A9E521E40CCB6007303D7 /* kaduckviewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD5A9E541E40CCB6007303D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD5A9E5D1E40CCB7007303D7 /* kaduckviewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD5A9E4F1E40CCB6007303D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD5A9E381E40CCB6007303D7 /* kaduckview */;
+			targetProxy = CD5A9E4E1E40CCB6007303D7 /* PBXContainerItemProxy */;
+		};
+		CD5A9E5A1E40CCB6007303D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD5A9E381E40CCB6007303D7 /* kaduckview */;
+			targetProxy = CD5A9E591E40CCB6007303D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD5A9E401E40CCB6007303D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD5A9E411E40CCB6007303D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD5A9E451E40CCB6007303D7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD5A9E461E40CCB6007303D7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD5A9E5F1E40CCB7007303D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD5A9E601E40CCB7007303D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD5A9E621E40CCB7007303D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = kaduckview/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.augimon.kaduckview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CD5A9E631E40CCB7007303D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = kaduckview/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.augimon.kaduckview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CD5A9E651E40CCB7007303D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = kaduckviewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.augimon.kaduckviewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kaduckview.app/kaduckview";
+			};
+			name = Debug;
+		};
+		CD5A9E661E40CCB7007303D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = kaduckviewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.augimon.kaduckviewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kaduckview.app/kaduckview";
+			};
+			name = Release;
+		};
+		CD5A9E681E40CCB7007303D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = kaduckviewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.augimon.kaduckviewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = kaduckview;
+			};
+			name = Debug;
+		};
+		CD5A9E691E40CCB7007303D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = kaduckviewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.augimon.kaduckviewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = kaduckview;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD5A9E341E40CCB6007303D7 /* Build configuration list for PBXProject "kaduckview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD5A9E5F1E40CCB7007303D7 /* Debug */,
+				CD5A9E601E40CCB7007303D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD5A9E611E40CCB7007303D7 /* Build configuration list for PBXNativeTarget "kaduckview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD5A9E621E40CCB7007303D7 /* Debug */,
+				CD5A9E631E40CCB7007303D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD5A9E641E40CCB7007303D7 /* Build configuration list for PBXNativeTarget "kaduckviewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD5A9E651E40CCB7007303D7 /* Debug */,
+				CD5A9E661E40CCB7007303D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD5A9E671E40CCB7007303D7 /* Build configuration list for PBXNativeTarget "kaduckviewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD5A9E681E40CCB7007303D7 /* Debug */,
+				CD5A9E691E40CCB7007303D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD5A9E311E40CCB6007303D7 /* Project object */;
+}
