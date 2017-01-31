@@ -15,6 +15,7 @@
 		CD5A9E521E40CCB6007303D7 /* kaduckviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5A9E511E40CCB6007303D7 /* kaduckviewTests.swift */; };
 		CD5A9E5D1E40CCB7007303D7 /* kaduckviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5A9E5C1E40CCB7007303D7 /* kaduckviewUITests.swift */; };
 		CD5A9E6D1E40CD30007303D7 /* KaduckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5A9E6C1E40CD30007303D7 /* KaduckView.swift */; };
+		CD5A9E6F1E40D029007303D7 /* kaduckview.podspec in Resources */ = {isa = PBXBuildFile; fileRef = CD5A9E6E1E40D029007303D7 /* kaduckview.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		CD5A9E5C1E40CCB7007303D7 /* kaduckviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kaduckviewUITests.swift; sourceTree = "<group>"; };
 		CD5A9E5E1E40CCB7007303D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD5A9E6C1E40CD30007303D7 /* KaduckView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KaduckView.swift; sourceTree = "<group>"; };
+		CD5A9E6E1E40D029007303D7 /* kaduckview.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = kaduckview.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		CD5A9E301E40CCB6007303D7 = {
 			isa = PBXGroup;
 			children = (
+				CD5A9E6E1E40D029007303D7 /* kaduckview.podspec */,
 				CD5A9E3B1E40CCB6007303D7 /* kaduckview */,
 				CD5A9E501E40CCB6007303D7 /* kaduckviewTests */,
 				CD5A9E5B1E40CCB6007303D7 /* kaduckviewUITests */,
@@ -235,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD5A9E6F1E40D029007303D7 /* kaduckview.podspec in Resources */,
 				CD5A9E471E40CCB6007303D7 /* LaunchScreen.storyboard in Resources */,
 				CD5A9E441E40CCB6007303D7 /* Assets.xcassets in Resources */,
 				CD5A9E421E40CCB6007303D7 /* Main.storyboard in Resources */,
@@ -359,7 +363,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -402,7 +406,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
